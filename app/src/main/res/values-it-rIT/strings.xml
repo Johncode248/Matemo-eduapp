@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="contact">Contatta lo sviluppatore</string>
+    <string name="English">en</string>
+    <string name="Dodawanie">Aggiunta</string>
+    <string name="dod_10">Aggiungendo fino a 10</string>
+    <string name="Odejmowanie">Sottrazione</string>
+    <string name="Mnożenie">Moltiplicazione</string>
+    <string name="Dzielenie">Divisione</string>
+</resources>

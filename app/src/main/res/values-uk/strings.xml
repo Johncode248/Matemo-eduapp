@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="contact">Зверніться до розробника</string>
+    <string name="English">uk</string>
+    <string name="Dodawanie">Доповнення</string>
+    <string name="Odejmowanie">Віднімання</string>
+    <string name="Mnożenie">Множення</string>
+    <string name="Dzielenie">Поділ</string>
+    <string name="Kolejność">"Операції "</string>
+    <string name="Równania">Рівняння</string>
+    <string name="Polityka">Політика конфіденційності</string>
+    <string name="Kolekcja">Колекція</string>
+    <string name="Sklep">Магазин</string>
+    <string name="sprawdz_btn">Перевірте</string>
+    <string name="Dod10">Додаток до 10</string>
+    <string name="Dod20">Додаток до 20</string>
+    <string name="Dod30">Додаток до 30</string>
+    <string name="Dod50">Додаток до 50</string>
+    <string name="Dod100">Додаток до 100</string>
+    <string name="Dod300">Додаток до 300</string>
+    <string name="Dod500">Додаток до 500</string>
+    <string name="Dod1000">Додаток до 1000</string>
+    <string name="Ode10">Віднімання в межах 10</string>
+    <string name="Ode20">Віднімання в межах 20</string>
+    <string name="dod_10">Додаток до 10</string>
+    <string name="Dod10do100">Додавання десятків до 100</string>
+    <string name="Dod3do100">Додавання 3 чисел до 100</string>
+    <string name="Ode30">Віднімання в межах 30</string>
+    <string name="Ode50">Віднімання в межах 50</string>
+    <string name="Ode100">Віднімання в межах 100</string>
+    <string name="Ode300">Віднімання в межах 300</string>
+    <string name="Ode600">Віднімання в межах 600</string>
+    <string name="Ode1000">Віднімання в межах 1000</string>
+    <string name="Ode10do100">Віднімання десятків у межах 100</string>
+    <string name="Ode3do100">Віднімання 3 чисел від 100</string>
+    <string name="Mno2">Множення на 2</string>
+    <string name="Mno3">Множення на 3</string>
+    <string name="Mno4">Множення на 4</string>
+    <string name="Mno5">Множення на 5</string>
+    <string name="Mno6">Множення на 6</string>
+    <string name="Mno7">Множення на 7</string>
+    <string name="Mno8">Множення на 8</string>
+    <string name="Mno9">Множення на 9</string>
+    <string name="Mno10">Множення на 10</string>
+    <string name="Mnotab50">Таблиця множення до 50</string>
+    <string name="Mnotab100">Таблиця множення до 100</string>
+    <string name="Mnotab200">Таблиця множення до 200</string>
+    <string name="Mnotab500">Таблиця множення до 500</string>
+    <string name="Dziel2">Ділення на 2</string>
+    <string name="Dziel3">Ділення на 3</string>
+    <string name="Dziel4">Ділення на 4</string>
+    <string name="Dziel5">Ділення на 5</string>
+    <string name="Dziel6">Ділення на 6</string>
+    <string name="Dziel7">Ділення на 7</string>
+    <string name="Dziel8">Ділення на 8</string>
+    <string name="Dziel9">Ділення на 9</string>
+    <string name="Dziel10">Ділення на 10</string>
+    <string name="Dzieltab50">Таблиця ділення до 50</string>
+    <string name="Dzieltab100">Таблиця ділення до 100</string>
+    <string name="Dzieltab200">Таблиця ділення до 200</string>
+    <string name="Dzieltab500">Таблиця ділення до 500</string>
+    <string name="ustawienia">Налаштування</string>
+
+
+</resources>

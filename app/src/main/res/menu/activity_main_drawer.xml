@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/item_one"
+            android:title="item1"
+            android:icon="@drawable/graph"/>
+
+        <item
+            android:id="@+id/item_2"
+            android:title="item2"
+            android:icon="@drawable/graph"/>
+
+        <item
+            android:id="@+id/item_3"
+            android:title="item3"
+            android:icon="@drawable/graph"/>
+    </group>
+
+    <item android:title="Title 1">
+
+        <menu>
+            <item
+            android:id="@+id/item_6"
+            android:title="item6"
+            android:icon="@drawable/graph"/>
+
+            <item
+                android:id="@+id/item_7"
+                android:title="item7"
+                android:icon="@drawable/graph"/>
+
+
+
+        </menu>
+    </item>
+</menu>

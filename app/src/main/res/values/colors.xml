@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#2d2d2d</color>
+    <color name="green1">#80D010</color>
+
+    <color name="flag_red">#FF0000</color>
+    <color name="flag_white">#FFFFFF</color>
+    <color name="flag_blue">#0000FF</color>
+    <color name="flag_yellow">#F0F465</color>
+    <color name="jasnyskorny">#FFE5D9</color>
+
+    <color name="nowy">#20ffffff</color>
+
+    <color name="c1">#ffe1c4</color>
+
+    <color name="cie_i_jasny">#F5F5F5</color>
+    <color name="cie_i_jasnymenu">#333333</color>
+
+    <color name="zloty_1">#FFD700</color>
+    <color name="szary_1">#808080</color>
+
+    <color name="turkus">#40E0D0</color>
+
+    <color name="nieb">#007BFF</color>
+    <color name="niebieski_bialy">#FFFFFF</color>
+
+    <color name="pom">#FFA500</color>
+    <color name="lim">#32CD32</color>
+
+    <color name="zolneo">#FFFF00</color>
+    <color name="zie">#00FF00</color>
+    <color name="purpura">#800080</color>
+
+    <color name="lil">#C8A2C8</color>
+    <color name="miet">#98FF98</color>
+    <color name="zolslon">#FFFF00</color>
+    <color name="roz">#FFC0CB</color>
+
+    <color name="czar">#D8BFD8</color>
+    <color name="jab">#7FFF00</color>
+    <color name="turkjasny">#00CED1</color>
+    <color name="sloncee">#FFD700</color>
+    <color name="cytryna">#FFFF99</color>
+    <color name="last">#5d84f0</color>
+</resources>

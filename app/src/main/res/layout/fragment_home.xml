@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/gorne"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+
+
+            android:background="@color/nieb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView333"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_marginEnd="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/dollar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="39dp"
+                android:text="0"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toEndOf="@+id/imageView333"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/ic_konto"
+                android:layout_width="51dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/baseline_settings_24"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.044"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <ScrollView
+            android:id="@+id/scrolek"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/gorne"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="55dp"
+            android:background="@color/niebieski_bialy"
+
+
+            app:layout_constraintTop_toBottomOf="@+id/gorne">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/pod_gornym"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/gorne"
+                    android:background="@drawable/flag_gradient"
+                    android:visibility="gone"
+                    app:layout_constraintTop_toBottomOf="@+id/gorne">
+
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/multipliedss"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="17dp"
+                        android:src="@drawable/dollar"
+                        android:visibility="invisible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+
+
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="50dp"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="2"
+                        android:columnOrderPreserved="false"
+                        android:rowCount="4"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:foregroundGravity="center">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cart_dodawanie"
+
+                            android:layout_width="145dp"
+                            android:layout_height="145dp"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/sloncee"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="5dp"
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginTop="30dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:src="@drawable/plusap"
+                                        app:layout_constraintBottom_toTopOf="@+id/textView14"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/textView14"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="17dp"
+                                        android:gravity="center_horizontal"
+                                        android:text="@string/Dodawanie"
+                                        android:textColor="@color/flag_white"
+                                        android:textSize="16sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cart_odejmowanie"
+
+                            android:layout_width="145dp"
+                            android:layout_height="145dp"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/lim"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginTop="30dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:src="@drawable/minusap"
+                                        app:layout_constraintBottom_toTopOf="@+id/textView12"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/textView12"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="17dp"
+                                        android:gravity="center_horizontal"
+                                        android:text="@string/Odejmowanie"
+                                        android:textColor="@color/flag_white"
+                                        android:textSize="16sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cart_mnożenie"
+
+                            android:layout_width="145dp"
+                            android:layout_height="145dp"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/last"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/imageView7"
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:layout_marginTop="30dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:src="@drawable/closeap"
+                                        app:layout_constraintBottom_toTopOf="@+id/textView13"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/textView13"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="17dp"
+                                        android:text="@string/Mnożenie"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cart_dzielenie"
+
+                            android:layout_width="145dp"
+                            android:layout_height="145dp"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/pom"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginTop="30dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:src="@drawable/divideap"
+                                        app:layout_constraintBottom_toTopOf="@+id/textView15"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/textView15"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="22dp"
+                                        android:layout_marginBottom="17dp"
+                                        android:text="@string/Dzielenie"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cart_kolejność"
+
+                            android:layout_width="145dp"
+                            android:layout_height="145dp"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/lil"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/imageView8"
+                                        android:layout_width="24dp"
+
+                                        android:layout_height="24dp"
+                                        android:layout_marginStart="15dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:src="@drawable/plusap"
+                                        app:layout_constraintBottom_toTopOf="@+id/textView17"
+                                        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <ImageView
+                                        android:id="@+id/imageView9"
+                                        android:layout_width="24dp"
+                                        android:layout_height="24dp"
+                                        android:layout_marginEnd="15dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:src="@drawable/divideap"
+                                        app:layout_constraintBottom_toTopOf="@+id/textView17"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/imageView8"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <ImageView
+                                        android:id="@+id/imageView11"
+                                        android:layout_width="18dp"
+                                        android:layout_height="18dp"
+                                        android:layout_marginStart="15dp"
+                                        android:src="@drawable/closeap"
+                                        app:layout_constraintBottom_toTopOf="@+id/textView17"
+                                        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+                                    <ImageView
+                                        android:id="@+id/imageView10"
+                                        android:layout_width="24dp"
+                                        android:layout_height="24dp"
+                                        android:src="@drawable/equalap"
+                                        app:layout_constraintBottom_toTopOf="@+id/textView17"
+                                        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+                                        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+                                    <TextView
+                                        android:id="@+id/textView17"
+                                        android:layout_width="wrap_content"
+
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="17dp"
+                                        android:text="@string/Kolejność"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cart_równania"
+
+                            android:layout_width="145dp"
+                            android:layout_height="145dp"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/turkjasny"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginTop="30dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:src="@drawable/equalap"
+                                        app:layout_constraintBottom_toTopOf="@+id/textView16"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/textView16"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="17dp"
+                                        android:text="@string/Równania"
+                                        android:textColor="@color/white"
+                                        android:textSize="16sp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cart_ułamki"
+
+                            android:layout_width="145dp"
+
+                            android:layout_height="145dp"
+                            android:layout_margin="10dp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/grey"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_marginTop="12dp"
+                                    android:src="@drawable/dollar" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Ułamki"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cart_testy"
+
+                            android:layout_width="145dp"
+
+                            android:layout_height="145dp"
+                            android:layout_margin="10dp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/grey"
+                            app:cardCornerRadius="12dp"
+                            app:cardElevation="5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_marginTop="12dp"
+                                    android:src="@drawable/dollar" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Testy"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp" />
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+
+                    </GridLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
